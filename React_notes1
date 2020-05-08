@@ -13,4 +13,8 @@ https://dev.to/bunlong/react-component-lifecycle-hooks-cheatsheet-41c3
 * Redux- Stores, action and reducer
 
 
+In React class based component must have one function, let say render() {}
+also inside render there is jsx format (js +html) inside return()
+note: inside return generally  there must be only one root element (like only one pair div )
+
 
