@@ -20,6 +20,7 @@ In React class based component must have one function, let say render() {}
 also inside render there is jsx format (js +html) inside return()
 note: inside return generally  there must be only one root element (like only one pair div )
 * always rememebr ReactDOM (R should be capital, DOM all letter should be capital)
+*https://www.w3schools.com/REACT/default.asp (react basic)
 
 #JSX
 JSX stands for JavaScript XML.
@@ -36,5 +37,15 @@ ReactDOM.render(myelement, document.getElementById('root'));
 Without JSX (a bit long, we have to use React.getElement)
 const myelement = React.createElement('h1', {}, 'I do not use JSX!');
 ReactDOM.render(myelement, document.getElementById('root'));
+
+** Arrow function has special behaviour when it comes around "this" keyword. They bind the value of this whatever 'this' is 
+outside the function (in vs code eg state is outside the fun)
+
+Note:
+function display(){
+ console.log(this); // 'this' will point to the global object
+}
+
+display(); 
 
 
