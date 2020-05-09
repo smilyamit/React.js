@@ -56,5 +56,11 @@ hold data that may change over time and to control the behavior after each chang
 #container Component with states vs UI Component without state made by function (v-15)
 eg https://www.youtube.com/watch?v=o4GCcSn-hEw&list=PL4cUxeGkcC9ij8CfkAY2RAGb-tmkNwQHG&index=15
 
+
+
 ##Lifecycle of React
 http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
+
+#why id is required in making list inside app.js
+=>react expects a unique key on every surrounding element that we return inside this map function right here whenwe output 
+them to the browser so that can identify each individual item and perform the Dom manipulations
