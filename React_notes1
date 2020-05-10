@@ -64,3 +64,14 @@ http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/
 #why id is required in making list inside app.js
 =>react expects a unique key on every surrounding element that we return inside this map function right here whenwe output 
 them to the browser so that can identify each individual item and perform the Dom manipulations
+
+#div.todos.collection how it did it automatically update?
+=>that is the feature of emmet extention
+*paranthesis will invoke the function automatically so we have to use it with arrow function to have control on it
+
+prop vs State detail
+Prop(property):
+Assigning prop(property) value to component is same like assign  <a href= "value">link</a> 
+eg <Component property="value"/>
+https://www.youtube.com/watch?time_continue=1&v=KvapOdsFK5A&feature=emb_logo
+https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/
