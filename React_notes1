@@ -88,3 +88,30 @@ nav.wrapper.red.darken-3 (enter)
 
 ul= unordered list
 a=anchor tag
+
+##What are React Components?
+React components are independent and reusable code. They are the building blocks of any React application. 
+Components serve the same purpose as JavaScript functions, but work individually to return JSX code as elements for our UI
+
+#Diff between functional component and class component
+https://www.freecodecamp.org/news/functional-components-vs-class-components-in-react/
+A)Functional Component
+1)stateless” components as they simply accept data and display them in some form; that is they are mainly responsible for 
+rendering UI (example, a Button component)
+2)React lifecycle methods (for example, componentDidMount) cannot be used in functional components.
+3)Functional components can accept and use props.
+
+B)class component
+Class components make use of ES6 class and extend the Component class in React.
+React lifecycle methods can be used inside class components (for example, componentDidMount)
+You pass props down to class components and access them with this.props
+
+#################################
+
+#Diff between Component and Container
+Component is part of the React API. A Component is a class or function that describes part of a React UI.
+
+Container is an informal term for a React component that is connect-ed to a redux store. Containers receive Redux state 
+updates and dispatch actions, and they usually don't render DOM elements; they delegate rendering to presentational child 
+components.
+
