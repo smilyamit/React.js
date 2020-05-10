@@ -75,3 +75,6 @@ Assigning prop(property) value to component is same like assign  <a href= "value
 eg <Component property="value"/>
 https://www.youtube.com/watch?time_continue=1&v=KvapOdsFK5A&feature=emb_logo
 https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/
+
+#React Router
+Router in react server act as temporary server for suppying all other pages associated with home page(about, contact)
