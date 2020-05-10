@@ -115,3 +115,12 @@ Container is an informal term for a React component that is connect-ed to a redu
 updates and dispatch actions, and they usually don't render DOM elements; they delegate rendering to presentational child 
 components.
 
+#Reducer workflow
+components --->Dispatch Action---->Reducer------>Redux(A central datastore)
+work:
+components: component dispatch an action eg: ADD_POST
+Dispatch Action: action passsed to Reducer
+Reducer: It update the central state
+Redux: Components suscribe to changes-props
+
+
