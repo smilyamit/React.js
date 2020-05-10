@@ -74,7 +74,17 @@ Prop(property):
 Assigning prop(property) value to component is same like assign  <a href= "value">link</a> 
 eg <Component property="value"/>
 https://www.youtube.com/watch?time_continue=1&v=KvapOdsFK5A&feature=emb_logo
-https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/
+https://www.freecodecamp.org/news/react-js-for-beginners-props-state-explained/ (very vey imp)
 
 #React Router
 Router in react server act as temporary server for suppying all other pages associated with home page(about, contact)
+Router in react intercept the request of browser and supply the required component (module) without contacting server
+
+#new shortcut to write html code in react
+for eg for div with classname container just write
+div.container (enter)
+for nav with wrapper with red color
+nav.wrapper.red.darken-3 (enter)
+
+ul= unordered list
+a=anchor tag
