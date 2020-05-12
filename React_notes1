@@ -123,4 +123,7 @@ Dispatch Action: action passsed to Reducer
 Reducer: It update the central state
 Redux: Components suscribe to changes-props
 
+Note: Without redux also we can deal with data management with state of components , it is possible for small companies 
+but for medium and large companies we need Redux for data management 
+
 
